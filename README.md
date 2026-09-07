@@ -15,8 +15,6 @@ The design multiplies two 8-bit unsigned inputs (`a`, `b`) into a 16-bit unsigne
 | AND gates | 64 |
 | Half Adders (Dadda reduction) | 7 |
 | Full Adders (Dadda reduction) | 35 |
-| Half Adders (final RCA stage) | 1 |
-| Full Adders (final RCA stage) | 13 |
 | **Total Half Adders** | **8** |
 | **Total Full Adders** | **48** |
 
