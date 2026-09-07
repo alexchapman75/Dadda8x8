@@ -1,6 +1,6 @@
 # 8x8 Dadda Tree Multiplier
 
-Gate-level Verilog implementation of an 8-bit x 8-bit unsigned Dadda tree multiplier, built for NC State ECE 310 (Project 1). Includes a basic directed-vector testbench and an extended SystemVerilog testbench with constrained-random stimulus and functional coverage.
+Gate-level Verilog implementation of an 8-bit x 8-bit unsigned Dadda tree multiplier, built for my ECE 310 (Digital Logic Design) Project 1. Includes a basic directed-vector testbench per project requirements, and an extended SystemVerilog testbench with constrained-random stimulus and functional coverage.
 
 ## Overview
 
