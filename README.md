@@ -7,7 +7,7 @@ Gate-level Verilog implementation of an 8-bit x 8-bit unsigned Dadda tree multip
 The design multiplies two 8-bit unsigned inputs (`a`, `b`) into a 16-bit unsigned product (`prod`) entirely at the gate level:
 
 1. **Partial product generation** — 64 AND gates form the full 8x8 partial product matrix.
-2. **Dadda reduction** — the matrix height is reduced from 8 down to 2 across four stages (targeting heights 6, 4, 3, 2), using a mix of gate-level Half Adders and Full Adders.
+2. **Dadda reduction** - the matrix height is reduced from 8 down to 2 across four stages (targeting heights 6, 4, 3, 2), using a mix of gate-level Half Adders and Full Adders.
 3. **Final addition** — the two remaining rows are combined using a 14-bit ripple-carry adder to produce the final 16-bit product.
 
 | Unit | Count |
@@ -26,7 +26,7 @@ The design multiplies two 8-bit unsigned inputs (`a`, `b`) into a 16-bit unsigne
 |---|---|
 | `Dadda8x8.v` | Top-level gate-level multiplier design (DUT). |
 | `Dadda8x8_tb.v` | Basic self-checking Verilog testbench with 6 directed test vectors covering standard and edge-case inputs. |
-| `Dadda8x8_tb_sv.sv` | Extended SystemVerilog testbench with constrained-random stimulus, functional coverage (including cross-coverage), and self-checking against a golden reference model. |
+| `Dadda8x8_tb_sv.sv` | Extended SystemVerilog testbench with constrained-random stimulus, functional coverage (including cross-coverage), and self-checking against an expected reference model. |
 | `Project1_Report.pdf` | Formal report covering design methodology, gate counts, test vector reasoning, and simulation results. |
 
 ## Running the Simulation
