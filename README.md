@@ -1,2 +1,3 @@
 # Dadda8x8
-A Gate-Level Design and Verification suite of an 8-bit by 8-bit Dadda Tree Multiplier
+A Gate-Level Design and Verification suite of an 8-bit by 8-bit Dadda Tree Multiplier,
+With systemVerilog testbench addition of my own design.
